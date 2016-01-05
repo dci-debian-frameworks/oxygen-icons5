@@ -1,2 +1,3 @@
 version=3
-http://download.kde.org/stable/applications/([\d.]+)/src/oxygen-icons-([\d.]+).tar.xz
+http://download.kde.org/unstable/frameworks/([\d.]+)/src/oxygen-icons5-([\d.]+).tar.xz
+http://download.kde.org/stable/frameworks/([\d.]+)/src/oxygen-icons5-([\d.]+).tar.xz

@@ -1,3 +1,10 @@
+oxygen-icons5 (5.17.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release, for kf5
+  * Port watch file to new download location 
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 05 Jan 2016 20:56:26 +0100
+
 oxygen-icons (4:15.04.2-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
