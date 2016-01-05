@@ -2,6 +2,7 @@ oxygen-icons5 (5.17.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release, for kf5
   * Port watch file to new download location 
+  * Build-depend on extra-cmake-modules 
 
  -- Philip Muškovac <yofel@kubuntu.org>  Tue, 05 Jan 2016 20:56:26 +0100
 
