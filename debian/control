@@ -9,7 +9,7 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Eshat Cakar <info@eshat.de>
 Build-Depends: cmake,
                debhelper (>= 9),
-               extra-cmake-modules,
+               extra-cmake-modules (>= 5.18.0~),
                fdupes,
                imagemagick,
                pkg-kde-tools (>= 0.14),
