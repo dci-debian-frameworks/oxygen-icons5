@@ -22,8 +22,8 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/oxygen-icons5.git
 Package: oxygen5-icon-theme
 Architecture: all
 Depends: hicolor-icon-theme, ${misc:Depends}
-Breaks: oxygen-icon-theme (<< 5.17~)
-Replaces: oxygen-icon-theme (<< 5.17~)
+Breaks: oxygen-icon-theme
+Replaces: oxygen-icon-theme
 Provides: oxygen-icon-theme
 Description: Oxygen icon theme
  Oxygen is the standard icon theme for KDE 4, but follows the freedesktop.org
