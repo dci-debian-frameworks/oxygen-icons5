@@ -5,7 +5,7 @@ oxygen-icons5 (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
   * Build-depend on extra-cmake-modules, qtbase5-dev
   * Rename the binary to oxygen5-icon-theme and break/replace/provide
     oxygen-icon-theme
-  * New upstream release
+  * Add a transitional package for oxygen-icon-theme
 
  -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 15:11:05 +0100
 
