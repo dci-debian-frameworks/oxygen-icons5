@@ -1,9 +1,10 @@
-oxygen-icons5 (5.17.0-1~) UNRELEASED; urgency=medium
+oxygen-icons5 (5.18.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Package renamed upstream.
+  * New upstream release (5.18.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 05 Jan 2016 22:11:50 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 19 Jan 2016 21:08:22 +0100
 
 oxygen-icons5 (5.17.0-0ubuntu1) UNRELEASED; urgency=medium
 
