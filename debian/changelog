@@ -1,8 +1,8 @@
-oxygen-icons5 (5.19.0-1~) UNRELEASED; urgency=medium
+oxygen-icons5 (5.19.0-1) experimental; urgency=medium
 
   * New upstream release (5.19.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 06 Feb 2016 19:08:34 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 15:16:36 +0100
 
 oxygen-icons5 (5.18.0-1) experimental; urgency=medium
 
