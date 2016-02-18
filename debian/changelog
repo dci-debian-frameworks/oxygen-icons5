@@ -1,4 +1,4 @@
-oxygen-icons5 (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
+oxygen-icons5 (5.18.0-0ubuntu1) xenial; urgency=medium
 
   * New upstream release, for kf5
   * Port watch file to new download location 
