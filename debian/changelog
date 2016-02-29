@@ -1,3 +1,10 @@
+oxygen-icons5 (5.19.0-2) UNRELEASED; urgency=medium
+
+  * Fix target in debian/rules since the dh_install commands
+    are arch independent.
+
+ -- Rohan Garg <rohan@kde.org>  Mon, 29 Feb 2016 13:08:48 +0100
+
 oxygen-icons5 (5.19.0-1) experimental; urgency=medium
 
   * New upstream release (5.19.0).
