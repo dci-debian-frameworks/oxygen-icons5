@@ -31,8 +31,12 @@ Description: Transitional package for oxygen5-icon-theme
 Package: oxygen5-icon-theme
 Architecture: all
 Depends: hicolor-icon-theme, ${misc:Depends}
-Breaks: oxygen-icon-theme (<< 5:5.18)
-Replaces: oxygen-icon-theme (<< 5:5.18)
+Breaks: fdpowermon-icons,
+        libkdepim5 (<< 4:15.12),
+        oxygen-icon-theme (<< 5:5.18)
+Replaces: fdpowermon-icons,
+          libkdepim5 (<< 4:15.12),
+          oxygen-icon-theme (<< 5:5.18)
 Provides: oxygen-icon-theme
 Description: Oxygen icon theme
  Oxygen is the standard icon theme for KDE 4, but follows the freedesktop.org
