@@ -1,13 +1,14 @@
-oxygen-icons5 (5.20.0-1~2.gbp2027f1) UNRELEASED; urgency=medium
+oxygen-icons5 (5.20.0-1~3.gbpcc0793) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @2027f1867aee477c085111af01cfc5bedf3a5fe8 **
+  ** SNAPSHOT build @cc07937f49217268e9213b3c734033a48c7124a3 **
 
   * Fix target in debian/rules since the dh_install commands
     are arch independent.
   * UNRELEASED
   * UNRELEASED
+  * UNRELEASED
 
- -- Rohan Garg <jenkins@amadeus.gnuservers.com.ar>  Mon, 28 Mar 2016 16:32:04 +0200
+ -- Rohan Garg <jenkins@amadeus.gnuservers.com.ar>  Mon, 28 Mar 2016 22:32:08 +0200
 
 oxygen-icons5 (5.19.0-1) experimental; urgency=medium
 
