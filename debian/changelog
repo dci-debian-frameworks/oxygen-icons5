@@ -1,6 +1,6 @@
-oxygen-icons5 (5.21.0-1~1.gbpa1cad8) UNRELEASED; urgency=medium
+oxygen-icons5 (5.21.0-1~2.gbpd6f9a9) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @a1cad883283580632c2b9d8d39f992b4e346cb89 **
+  ** SNAPSHOT build @d6f9a90a2d67249ee1a35dd656fdc2521615000f **
 
   [ Rohan Garg ]
   ** SNAPSHOT build @437ccb50b315b00936944d3a3fbf6131c3c2e55a **
@@ -17,7 +17,10 @@ oxygen-icons5 (5.21.0-1~1.gbpa1cad8) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 10 Apr 2016 04:38:33 +0200
+  [ Maximiliano Curia ]
+  * uscan no longer supports more than one main upstream tarball being listed
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:32:26 +0200
 
 oxygen-icons5 (5.19.0-1) experimental; urgency=medium
 
