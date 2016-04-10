@@ -1,5 +1,8 @@
-oxygen-icons5 (5.20.0-1~6.gbp437ccb) UNRELEASED; urgency=medium
+oxygen-icons5 (5.21.0-1~1.gbpa1cad8) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @a1cad883283580632c2b9d8d39f992b4e346cb89 **
+
+  [ Rohan Garg ]
   ** SNAPSHOT build @437ccb50b315b00936944d3a3fbf6131c3c2e55a **
 
   * Fix target in debian/rules since the dh_install commands
@@ -11,7 +14,10 @@ oxygen-icons5 (5.20.0-1~6.gbp437ccb) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
 
- -- Rohan Garg <jenkins@amadeus.gnuservers.com.ar>  Wed, 30 Mar 2016 10:34:03 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 10 Apr 2016 04:38:33 +0200
 
 oxygen-icons5 (5.19.0-1) experimental; urgency=medium
 
