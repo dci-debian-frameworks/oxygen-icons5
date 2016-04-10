@@ -9,11 +9,11 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Eshat Cakar <info@eshat.de>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.19.0~),
+               extra-cmake-modules (>= 5.21.0~),
                fdupes,
                imagemagick,
                pkg-kde-tools (>= 0.14),
-               qtbase5-dev (>= 5.3.0~)
+               qtbase5-dev (>= 5.4.0~)
 Standards-Version: 3.9.6.1
 Homepage: http://www.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/oxygen-icons5.git/
