@@ -3,16 +3,8 @@ oxygen-icons5 (5.21.0-1~2.gbpd6f9a9) UNRELEASED; urgency=medium
   ** SNAPSHOT build @d6f9a90a2d67249ee1a35dd656fdc2521615000f **
 
   [ Rohan Garg ]
-  ** SNAPSHOT build @437ccb50b315b00936944d3a3fbf6131c3c2e55a **
-
   * Fix target in debian/rules since the dh_install commands
     are arch independent.
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
@@ -37,9 +29,7 @@ oxygen-icons5 (5.18.0-1) experimental; urgency=medium
   * Package renamed upstream.
   * New upstream release (5.18.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:34:32 +0100
-
-oxygen-icons5 (5.17.0-0ubuntu1) UNRELEASED; urgency=medium
+  [ Philip Muškovac ]
 
   * New upstream release, for kf5
   * Port watch file to new download location
@@ -47,7 +37,7 @@ oxygen-icons5 (5.17.0-0ubuntu1) UNRELEASED; urgency=medium
   * Rename the binary to oxygen5-icon-theme and break/replace/provide
     oxygen-icon-theme
 
- -- Philip Muškovac <yofel@kubuntu.org>  Tue, 05 Jan 2016 20:56:26 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:34:32 +0100
 
 oxygen-icons (4:15.04.2-0ubuntu1) wily; urgency=medium
 
