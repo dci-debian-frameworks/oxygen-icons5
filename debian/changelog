@@ -19,6 +19,9 @@ oxygen-icons5 (5.21.0-1~2.gbpd6f9a9) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * uscan no longer supports more than one main upstream tarball being listed
+  * New upstream release moves conflicting x-mail-distribution.png file to
+    base/x-mail-distribution.png (Closes: #820447) Thanks to Andreas Beckmann
+    for reporting.
 
  -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:32:26 +0200
 
