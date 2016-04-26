@@ -1,3 +1,9 @@
+oxygen-icons5 (5.21.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release, xenial backport.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 26 Apr 2016 15:05:56 -0700
+
 oxygen-icons5 (5.21.0-1~2.gbpd6f9a9) UNRELEASED; urgency=medium
 
   ** SNAPSHOT build @d6f9a90a2d67249ee1a35dd656fdc2521615000f **
