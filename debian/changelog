@@ -1,6 +1,6 @@
-oxygen-icons5 (5.21.0-1~3.gbp4f2b42) UNRELEASED; urgency=medium
+oxygen-icons5 (5.21.0-1~4.gbpfe486a) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @4f2b42ce2855ed4c0f8d3cd13b69fdc389e55c71 **
+  ** SNAPSHOT build @fe486a1bfe8484d9b62aff392451701d80df5527 **
 
   [ Rohan Garg ]
   * Fix target in debian/rules since the dh_install commands
@@ -8,6 +8,7 @@ oxygen-icons5 (5.21.0-1~3.gbp4f2b42) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
 
   [ Maximiliano Curia ]
   * uscan no longer supports more than one main upstream tarball being listed
@@ -16,7 +17,7 @@ oxygen-icons5 (5.21.0-1~3.gbp4f2b42) UNRELEASED; urgency=medium
     for reporting.
   * New upstream release moves conflicting x-mail-distribution.png file to base/x-mail-distribution.png (Closes: #820447)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 11 Apr 2016 17:32:20 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 30 Apr 2016 20:05:25 +0200
 
 oxygen-icons5 (5.19.0-1) experimental; urgency=medium
 
