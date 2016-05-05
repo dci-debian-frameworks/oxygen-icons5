@@ -1,6 +1,4 @@
-oxygen-icons5 (5.21.0-1~4.gbpfe486a) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @fe486a1bfe8484d9b62aff392451701d80df5527 **
+oxygen-icons5 (5.21.0-1) experimental; urgency=medium
 
   [ Rohan Garg ]
   * Fix target in debian/rules since the dh_install commands
@@ -17,7 +15,7 @@ oxygen-icons5 (5.21.0-1~4.gbpfe486a) UNRELEASED; urgency=medium
     for reporting.
   * New upstream release moves conflicting x-mail-distribution.png file to base/x-mail-distribution.png (Closes: #820447)
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 30 Apr 2016 20:05:25 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 05 May 2016 15:31:30 +0200
 
 oxygen-icons5 (5.19.0-1) experimental; urgency=medium
 
