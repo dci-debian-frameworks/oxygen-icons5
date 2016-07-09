@@ -1,3 +1,11 @@
+oxygen-icons5 (5.24.0-1~1.gbp5def05) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @5def052aac98337e454b076ede4b1695d020cf87 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 09 Jul 2016 22:38:49 +0200
+
 oxygen-icons5 (5.23.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
