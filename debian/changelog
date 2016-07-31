@@ -15,6 +15,8 @@ oxygen-icons5 (5:5.24.0-0r1) UNRELEASED; urgency=medium
   * Remove symlinking of some icons to the hicolor icon theme: other than not
     working currently, it does not make sense for an icon theme to place stuff
     outside its own directory.
+  * Re-enable duplicates cleanup, but using the dh override that dhmk
+    understand.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 31 Jul 2016 16:29:12 +0200
 
