@@ -12,6 +12,9 @@ oxygen-icons5 (5:5.24.0-0r1) UNRELEASED; urgency=medium
   * Change the local installation from debian/tmp to debian/oxygen-icon-theme,
     so there is no need to copy files later with dh_install.
     - remove oxygen-icon-theme.install, no more used now
+  * Remove symlinking of some icons to the hicolor icon theme: other than not
+    working currently, it does not make sense for an icon theme to place stuff
+    outside its own directory.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 31 Jul 2016 16:29:12 +0200
 
