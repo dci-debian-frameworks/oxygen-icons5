@@ -9,6 +9,9 @@ oxygen-icons5 (5:5.24.0-0r1) UNRELEASED; urgency=medium
     of the icon theme:
     - add proper breaks/replaces
     - add oxygen5-icon-theme as transitional package
+  * Change the local installation from debian/tmp to debian/oxygen-icon-theme,
+    so there is no need to copy files later with dh_install.
+    - remove oxygen-icon-theme.install, no more used now
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 31 Jul 2016 16:29:12 +0200
 
