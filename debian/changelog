@@ -2,6 +2,7 @@ oxygen-icons5 (5.24.0-0r1) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * New upstream release.
+  * Bump extra-cmake-modules build dependency to 5.24.0~.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 31 Jul 2016 16:29:12 +0200
 
