@@ -1,6 +1,6 @@
-oxygen-icons5 (5:5.24.0-0r1) UNRELEASED; urgency=medium
+oxygen-icons5 (5:5.24.0-1) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * New upstream release.
   * Bump extra-cmake-modules build dependency to 5.24.0~.
   * Add 5 as epoch, so the binaries can take over older binaries from
@@ -19,7 +19,7 @@ oxygen-icons5 (5:5.24.0-0r1) UNRELEASED; urgency=medium
     understand.
   * Update lintian overrides.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 31 Jul 2016 16:29:12 +0200
+ -- Pino Toscano <pino@debian.org>  Sun, 31 Jul 2016 17:57:11 +0200
 
 oxygen-icons5 (5.23.0-1) unstable; urgency=medium
 
