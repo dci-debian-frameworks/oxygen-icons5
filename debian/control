@@ -9,11 +9,11 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Eshat Cakar <info@eshat.de>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.24.0~),
+               extra-cmake-modules (>= 5.25.0~),
                fdupes,
                imagemagick,
                pkg-kde-tools (>= 0.14),
-               qtbase5-dev (>= 5.4.0~)
+               qtbase5-dev (>= 5.5.0~)
 Standards-Version: 3.9.8
 Homepage: http://www.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/oxygen-icons5.git/
@@ -33,7 +33,7 @@ Package: oxygen5-icon-theme
 Architecture: all
 Section: oldlibs
 Priority: extra
-Depends: ${misc:Depends}, oxygen-icon-theme (>= ${source:Version})
+Depends: oxygen-icon-theme (>= ${source:Version}), ${misc:Depends}
 Description: transitional package for oxygen-icon-theme
  This is a transitional package for oxygen-icon-theme.
  .
