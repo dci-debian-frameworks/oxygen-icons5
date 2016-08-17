@@ -1,10 +1,16 @@
-oxygen-icons5 (5:5.25.0-1~1.gbp760ac8) UNRELEASED; urgency=medium
+oxygen-icons5 (5:5.25.0-1~2.gbp9d4874) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @9d4874683af01d736af22059fc392482592c8401 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @760ac882f33a97aea95b3ef2564e4204af8e2d51 **
 
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 16:38:53 +0200
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.25)
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 23:32:25 +0200
 
 oxygen-icons5 (5:5.24.0-1) unstable; urgency=medium
 
