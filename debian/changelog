@@ -1,3 +1,36 @@
+oxygen-icons5 (5:5.25.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.25)
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 18 Aug 2016 17:18:10 +0200
+
+oxygen-icons5 (5:5.24.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Bump extra-cmake-modules build dependency to 5.24.0~.
+  * Add 5 as epoch, so the binaries can take over older binaries from
+    src:oxygen-icons.
+  * Rename oxygen5-icon-theme back to oxygen-icon-theme, since it is the name
+    of the icon theme:
+    - add proper breaks/replaces
+    - add oxygen5-icon-theme as transitional package
+  * Change the local installation from debian/tmp to debian/oxygen-icon-theme,
+    so there is no need to copy files later with dh_install.
+    - remove oxygen-icon-theme.install, no more used now
+  * Remove symlinking of some icons to the hicolor icon theme: other than not
+    working currently, it does not make sense for an icon theme to place stuff
+    outside its own directory.
+  * Re-enable duplicates cleanup, but using the dh override that dhmk
+    understand.
+  * Update lintian overrides.
+
+ -- Pino Toscano <pino@debian.org>  Sun, 31 Jul 2016 17:57:11 +0200
+
 oxygen-icons5 (5.26.0-0neon) xenial; urgency=medium
 
   * New release
@@ -16,11 +49,25 @@ oxygen-icons5 (5.24.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Mon, 11 Jul 2016 07:43:32 +0000
 
+oxygen-icons5 (5.23.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 18 Jun 2016 08:25:45 +0200
+
 oxygen-icons5 (5.23.0-0neon) xenial; urgency=medium
 
   * New release
 
  -- Neon CI <neon@kde.org>  Mon, 13 Jun 2016 09:40:11 +0000
+
+oxygen-icons5 (5.22.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 18 May 2016 23:44:17 +0200
 
 oxygen-icons5 (5.22.0-0neon) xenial; urgency=medium
 
@@ -28,9 +75,7 @@ oxygen-icons5 (5.22.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Tue, 17 May 2016 07:37:19 +0000
 
-oxygen-icons5 (5.21.0-1~2.gbpd6f9a9) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @d6f9a90a2d67249ee1a35dd656fdc2521615000f **
+oxygen-icons5 (5.21.0-1) experimental; urgency=medium
 
   [ Rohan Garg ]
   * Fix target in debian/rules since the dh_install commands
@@ -38,14 +83,16 @@ oxygen-icons5 (5.21.0-1~2.gbpd6f9a9) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
 
   [ Maximiliano Curia ]
   * uscan no longer supports more than one main upstream tarball being listed
   * New upstream release moves conflicting x-mail-distribution.png file to
     base/x-mail-distribution.png (Closes: #820447) Thanks to Andreas Beckmann
     for reporting.
+  * New upstream release moves conflicting x-mail-distribution.png file to base/x-mail-distribution.png (Closes: #820447)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:32:26 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 05 May 2016 15:31:30 +0200
 
 oxygen-icons5 (5.21.0-0neon) xenial; urgency=medium
 

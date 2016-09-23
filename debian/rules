@@ -5,23 +5,14 @@ include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 DEB_VERSION_UPSTREAM_REVISION := $(shell dpkg-parsechangelog | awk '/^Version: / { print $$2 }' | sed -e 's/^[0-9]*://')
 
 override_dh_auto_install:
-	$(overridden_command) --destdir=debian/tmp
+	$(overridden_command) --destdir=debian/oxygen-icon-theme
 
 override_dh_gencontrol:
 	dh_gencontrol -poxygen-icon-theme -- -v5:$(DEB_VERSION_UPSTREAM_REVISION)
 	dh_gencontrol --remaining-packages
 
-override_dh_install-indep:
+# dhmk does not support -indep variant!
+override_dh_install:
 	$(overridden_command)
-	find $(CURDIR)/debian/oxygen5-icon-theme -type d -print0 |xargs -0 rmdir --ignore-fail-on-non-empty
-	bash $(CURDIR)/debian/symlink_duplicates.sh $(CURDIR)/debian/oxygen5-icon-theme $(CURDIR)/debian/oxygen5-icon-theme/usr/share/icons
-
-	set -e && for size in 256 128 64 48 32 22 16; do \
-		package="oxygen5-icon-theme"; \
-		mkdir -p debian/$${package}/usr/share/icons/hicolor/$${size}x$${size}/apps; \
-		for icon in device-notifier kde kde-windows klipper korgac kpgp krdc krfb ktip nepomuk oxygen plasma strigi; do \
-			if [ -e debian/$${package}/usr/share/icons/oxygen/$${size}x$${size}/apps/$${icon}.png ]; then \
-				ln -s ../../../oxygen/$${size}x$${size}/apps/$${icon}.png debian/$${package}/usr/share/icons/hicolor/$${size}x$${size}/apps; \
-			fi; \
-		done; \
-	done
+	find $(CURDIR)/debian/oxygen-icon-theme -type d -print0 |xargs -0 rmdir --ignore-fail-on-non-empty
+	bash $(CURDIR)/debian/symlink_duplicates.sh $(CURDIR)/debian/oxygen-icon-theme $(CURDIR)/debian/oxygen-icon-theme/usr/share/icons
