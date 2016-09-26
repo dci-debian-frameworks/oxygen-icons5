@@ -1,3 +1,9 @@
+oxygen-icons5 (5:5.26.0-1neon) xenial; urgency=medium
+
+  * Bump to 5.26 again
+
+ -- Harald Sitter <sitter@kde.org>  Mon, 26 Sep 2016 11:32:08 +0200
+
 oxygen-icons5 (5:5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
