@@ -1,3 +1,9 @@
+oxygen-icons5 (5:5.27.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sat, 08 Oct 2016 11:34:03 +0000
+
 oxygen-icons5 (5:5.26.0-1neon) xenial; urgency=medium
 
   * Bump to 5.26 again
