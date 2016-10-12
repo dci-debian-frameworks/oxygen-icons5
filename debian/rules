@@ -14,5 +14,5 @@ override_dh_gencontrol:
 # dhmk does not support -indep variant!
 override_dh_install:
 	$(overridden_command)
-	find $(CURDIR)/debian/oxygen-icon-theme -type d -print0 |xargs -0 rmdir --ignore-fail-on-non-empty
+	find $(CURDIR)/debian/oxygen-icon-theme -type d -print0 |xargs --no-run-if-empty -0 rmdir --ignore-fail-on-non-empty
 	bash $(CURDIR)/debian/symlink_duplicates.sh $(CURDIR)/debian/oxygen-icon-theme $(CURDIR)/debian/oxygen-icon-theme/usr/share/icons
