@@ -1,10 +1,12 @@
-oxygen-icons5 (5:5.28.0-1~1.gbpe44533) UNRELEASED; urgency=medium
+oxygen-icons5 (5:5.28.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @e44533171a6c40c98a4ca77b552eb0246ed13386 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 16:38:25 +0100
+  [ Maximiliano Curia ]
+  * New upstream release (5.28)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Nov 2016 16:03:06 +0100
 
 oxygen-icons5 (5:5.27.0-1) unstable; urgency=medium
 
