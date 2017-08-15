@@ -6,14 +6,14 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Fathi Boudra <fabo@debian.org>,
            Modestas Vainius <modax@debian.org>,
            Maximiliano Curia <maxy@debian.org>,
-           Eshat Cakar <info@eshat.de>
+           Eshat Cakar <info@eshat.de>,
 Build-Depends: cmake (>= 3.0~),
                debhelper (>= 9),
                extra-cmake-modules (>= 5.37.0~),
                fdupes,
                imagemagick,
                pkg-kde-tools (>= 0.14),
-               qtbase5-dev (>= 5.7.0~)
+               qtbase5-dev (>= 5.7.0~),
 Standards-Version: 4.0.1
 Homepage: http://www.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/oxygen-icons5.git/
