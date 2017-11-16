@@ -36,7 +36,7 @@ Description: Oxygen icon theme
 Package: oxygen5-icon-theme
 Architecture: all
 Section: oldlibs
-Priority: extra
+Priority: optional
 Depends: oxygen-icon-theme (>= ${source:Version}), ${misc:Depends}
 Description: transitional package for oxygen-icon-theme
  This is a transitional package for oxygen-icon-theme.
