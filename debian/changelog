@@ -1,10 +1,11 @@
-oxygen-icons5 (5:5.41.0-1~) UNRELEASED; urgency=medium
+oxygen-icons5 (5:5.41.0-1) experimental; urgency=medium
 
   * Update build-deps and deps with the info from cmake
   * Update uploaders list as requested by MIA team (Closes: #879417)
   * New upstream release (5.41.0).
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 13 Dec 2017 09:28:30 -0300
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 15 Dec 2017 10:43:21 -0300
 
 oxygen-icons5 (5:5.37.0-2) sid; urgency=medium
 
